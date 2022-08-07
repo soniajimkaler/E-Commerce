@@ -1,0 +1,31 @@
+#login .container #login-row #login-column #login-box {
+    margin-bottom: 70px;
+    /* max-width: 600px;
+    height: 320px;
+    border: 1px solid #9C9C9C;
+    background-color: #F6F7FB; */
+  }
+  #login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+  }
+  #login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+  }
+  .text-info-custom{
+    color:#000;
+  }
+  input[type="text"],input[type="password"],input[type="email"]{
+    height: 40px;
+  }
+  button, input[type="button"], input[type="reset"], input[type="submit"] {
+    border: 1px solid;
+    border-color: #ccc #ccc #bbb;
+    border-radius: 3px;
+    background: #000 !important;
+    color: #FFF !important;
+    line-height: 1;
+}
+.custom-btn:hover{
+  background-color: #F7941D !important;
+  border-color:#F7941D;
+}
